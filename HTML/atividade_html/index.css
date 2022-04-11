@@ -1,0 +1,57 @@
+.loja{
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 65px;
+    color: #ff01aa;
+    font-size: 40px;
+}
+
+.box{
+    background-color: rgb(37, 34, 34);
+    height: 160px;
+}
+
+.clodoaldo a{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff01aa;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.clodoaldo a:hover{
+    color: #e101ff;
+    text-decoration: underline;
+}
+
+
+.cortexto{
+    color: #ff5cce;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #3a3a3a;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 70px
+}
+
+nav{
+    position: absolute;
+    top: 70px;
+    left: 580px;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(255, 0, 170);
+}
+
+.imagem{
+    margin-top: -20px;
+    width: 100%;
+}

@@ -1,0 +1,133 @@
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 5px;
+    box-sizing: border-box;
+    width: 30%;
+    border: 2px solid #242222;
+    border-radius: 40px;
+}
+
+.produtos li:hover{
+    border-color: #fd69a7;
+    color: #fd69a7;
+    animation: color 5s infinite;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+.produtos li:active{
+    border-color: #8d0348;
+    color: #8d0348;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+header{
+    background: #242222;
+    padding: 20px 0;
+}
+
+#cor{
+    color:#fd69a7
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #c54fd4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    animation: cor 5s;
+}
+
+@keyframes cor {
+    0%{
+        color: rgb(255, 0, 0);    
+    }
+    25%{
+        color: rgb(25, 0, 255);
+    }
+    50%{
+        color: #5213ff;
+    }
+    75%{
+        color: rgb(183, 0, 255);
+    }
+    100%{
+        color: rgb(245, 30, 191);
+    }
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px
+}
+
+.box{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.textinho{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 500px;
+}
+
+.celta{
+    margin-left: 550px;
+}
+
+nav{
+    position: absolute;
+    top: 130px;
+    right: 280px;
+}
+
+.copy{
+    text-align: center;
+    color: azure;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.rp{
+    text-align: center;
+    padding: 30px ;
+    background: url("bg.jpg");
+    margin-top: 40px;
+}
+
+.image{
+    vertical-align: bottom;
+    padding: 20px;
+}
